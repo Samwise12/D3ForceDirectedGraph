@@ -1,18 +1,18 @@
-﻿# Visualize Data with a Heat Map
+﻿# Show National Contiguity with a Force Directed Graph
 
 ## Objective
 
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/aNLYPp/.
+Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/xVopBo.
 
 ## Requirements
 
-* User Story: I can view a heat map with data represented both on the Y and X axis.
+* User Story: I can see a Force-directed Graph that shows which countries share borders.
 
-* User Story: Each cell is colored based its relationship to other data.
+* User Story: I can see each country's flag on its node.
 
-* User Story: I can mouse over a cell in the heat map to get more exact information.
+**Hint:** Here's a dataset you can use to build this: https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json
 
-**Hint:** Here's a dataset you can use to build this: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/global-temperature.json
+**Hint:** You can create a spritesheet of national flags at https://www.flag-sprites.com.
 
 **Installation**
 ```
@@ -22,7 +22,8 @@ npm install
 **Usage**
 ```
 npm start
-use http://localhost:3000/
+use http://localhost:3000
 ```
-![](images/heatMap.png)
+![](images/graph.png)
+![](images/graph2.png)
 

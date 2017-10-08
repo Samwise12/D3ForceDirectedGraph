@@ -37,7 +37,10 @@
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
+    "exports-loader": "^0.6.4",
     "express": "^4.14.1",
+    "jquery": "^3.2.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
     "react-dom": "^15.4.2",
